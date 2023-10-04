@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <style>
             h1{
-                font-size: 300%;
+                font-size: 70px;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 text-align: center;
                 margin-bottom: 0;
@@ -17,22 +17,27 @@
                 margin-top: 0;
                 margin-bottom: 20px;
             }
-            ul{
+            #list{
+                border: 5px ridge red;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
                 text-align: center;
-                list-style: none;
+                margin: 0;
+            
             }
-            li{
+            div{
                 font-size: 50px;
-                display: inline-block;
-                margin: 16%;
+                margin: 20%;
             }
         </style>
     </head>
     <body>
 <h1>JOURNEY</h1>
 <h2>subtitle: What Do I Want</h2>
-<ul>
-    <li>JOB</li>
-    <li>LEISURE</li>
+<div id="list">
+    <div>Developer</div>
+    <div>Instructor</div>
+    <div>Certificate</div>
+    <div>Hobby</div>
     </body>
 </html>
